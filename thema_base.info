@@ -1,4 +1,35 @@
 name = thema base
 description = tema base para desarrollos basados en bootstrap
 core = 7.x
-files = [] thema_base.module
+version = 1.0
+
+
+
+; Regiones
+regions[header]	 = 'Header'
+regions[banner]  = 'Banner'
+regions[oferta]  = 'Oferta Inmobiliaria'
+regions[galeria] = 'Galeria'
+regions[content] = 'Contenido'
+regions[about]   = 'Conocenos'
+regions[footer_one]	 = 'menu footer uno'
+regions[footer_second]	 = 'menu footer dos'
+regions[footer_third]= 'menu footer tres'
+
+
+; Estilos CSS
+;stylesheets[all][] 	= recurcos/css/bootstrap-theme.css
+;stylesheets[all][] 	= recursos/css/bootstrap-theme.min.css
+;stylesheets[all][] 	= recursos/css/bootstrap-min.css
+stylesheets[all][] 		= recursos/css/bootstrap.css
+stylesheets[all][] 		= recursos/css/tbmegamenu.css
+stylesheets[all][] 		= src/style.css
+stylesheets[all][]      = recursos/owl/owl-carousel/owl.carousel.css
+stylesheets[all][]      = recursos/owl/owl-carousel/owl.theme.default.css   
+stylesheets[all][]      = recursos/font-awesome/css/font-awesome.min.css
+
+
+; JavaScripts
+scripts[]				= recursos/js/bootstrap.min.js
+scripts[]               = recursos/owl/owl-carousel/owl.carousel.js
+scripts[]               = recursos/myscript.js
