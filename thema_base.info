@@ -1,0 +1,4 @@
+name = thema base
+description = tema base para desarrollos basados en bootstrap
+core = 7.x
+files = [] thema_base.module
