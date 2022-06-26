@@ -1,7 +1,7 @@
 name = thema base
-description = tema base para desarrollos basados en bootstrap
+description = tema base para desarrollos basados en bootstrap test
 core = 7.x
-version = 1.0
+version = 1.1
 
 
 
